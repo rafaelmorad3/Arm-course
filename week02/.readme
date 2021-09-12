@@ -1,0 +1,29 @@
+@ sec 11
+what's AHB and i-bus && d-bus connect to flash 
+s-bus connect to AHB and it also connect to apb bus
+ APB on the other hand is slower bus compared to the  AHB bus. Which will run at the speed of 45 and 
+90 MHz in this microcontroller So, the maximum speed of  a APB2 bus is 90MHz and the maximum speed at which APB1 runs
+is actually 45MHz.
+So, these are actually slower buses APB. And all these peripheral like TIMERs,USART,SPI,ADC,I2C
+So, these peripherals are actually hanging to APB bus, not to AHB bus. And the GPIOs are actually hanging on the 
+1-Is it true that, System Bus is not connected to FLASH memory? true
+2-Processor can fetch instructions from SRAM over ICode bus interface? false
+3-System bus can operate at the speed up to 180 MHz? true.
+4- SRAMs are connected to system bus ? true
+5-APB1 bus can  operate  at the speed up to 180 MHz?false
+6- I have a peripheral whose data sheet says that, it's operating frequency or speed must be above 95MHz,
+Can I connect that peripheral  via APB2 bus? not possible 
+7-Processor can fetch instructions as well as data simultaneously from SRAM? false
+8-Processor can fetch instructions as well as data simultaneously from FLASH?true
+What is the  Max
+9-HCLK 180MHz
+10-P1CLK 45MHz
+11-P2CLK 90MHz
+12- GPIOs and processor communicate over AHB1 bus? true
+13-USB OTG  and processor communicate over AHB2 bus? true
+14-OTG  and GPIOs  can communicate to processor concurrently or simultaneously? false
+15-Processor can  talk to flash memory and SRAM simultaneously?true
+Understanding MCU Bus Matrix
+@ sec 12
+
+
