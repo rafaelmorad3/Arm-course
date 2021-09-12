@@ -24,6 +24,8 @@ What is the  Max
 14-OTG  and GPIOs  can communicate to processor concurrently or simultaneously? false
 15-Processor can  talk to flash memory and SRAM simultaneously?true
 Understanding MCU Bus Matrix
-@ sec 12
-
+@ sec 12 clocks
+HSI oscillato clock
+HSE oscillato clock
+main PLL clock
 
