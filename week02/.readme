@@ -28,4 +28,19 @@ Understanding MCU Bus Matrix
 HSI oscillato clock
 HSE oscillato clock
 main PLL clock
+@ sec 14 Understanding MCU Vector Table
+@ sec 15 Understanding MCU interrupt Design , NVIC, Interrupt handling 
+@sec 16 Understanding MCU Specific header file 
+@ sec 17 Volatile Keyword
+@ sec 18 to sec 24 
+he talk about GPIO 
+• Input floating
+• Input pull-up
+• Input-pull-down
+• Analog
+• Output open-drain with pull-up or pull-down capability
+• Output push-pull with pull-up or pull-down capability
+• Alternate function push-pull with pull-up or pull-down capability
+• Alternate function open-drain with pull-up or pull-down capability
+@ sec 25 he start to talk about lib and how to make iy
 
