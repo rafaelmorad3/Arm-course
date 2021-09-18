@@ -1,3 +1,5 @@
 @ sec 26 he continue talking about lib &&  Address of peripheral registers
 and structure reg in c by select the address and adding 4 byte on address offset 
 and what is address offset and how use it
+@ sec 28 write all the fun we need to GPIO
+@ sec 29  complete the first fun
